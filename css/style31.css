@@ -1,0 +1,111 @@
+/* CSS variables part start */
+:root{
+    --font_family_popins: 'Poppins', sans-serif;
+    --font_family_nunito_sans: 'Nunito Sans', sans-serif;
+    --green_color: #007F5F;
+    --white_color: #FFFFFF;
+    --gray_white_color: #F4F4F4;
+    --allh_black_color: #292929;
+    --allp_black_color: #6A6A6A;
+    --orange_color: #FF8B00;
+
+}
+/* CSS variables part end */
+/* Common CSS part start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p, a, ul, ol, h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+ul, ol, li{
+    list-style: none;
+}
+.all_section_heading h2{
+    color: var(--all_heading_black_color);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font_family);
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+/* Common CSS part end */
+
+/* Counter part start */
+#counter{
+    padding: 150px 0;
+    background: var(--gray_white_color)
+}
+.counter_text{}
+.counter_text h2{
+    color: var(--allh_black_color);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font_family_popins);
+    padding: 60px 0 20px;
+}
+.counter_text p{
+    color: var(--allp_black_color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--font_family_popins);
+}
+.counter_text ul{}
+.counter_text ul li{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.counter_text ul li span{
+    color: var(--green_color);
+}
+.counter_text ul li p{
+    color: var(--allp_black_color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--font_family_popins);
+}
+.counter_text .counter_btn a{
+    background: var(--green_color);
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_family_popins);
+    padding: 16px 35px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 30px;
+}
+.counter_text .counter_btn a:hover{
+}
+
+.counter_count{
+    padding: 62px 32px;
+    background: var(--white_color);
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.counter_count .counter_icon{}
+.counter_count .counter_icon span{
+    color: var(--green_color);
+}
+.counter_count .h3{}
+/* Counter part end */
